@@ -1,6 +1,9 @@
-path: D:/Pulpit/Dataset  # dataset root dir, absolute path
-train: images  # train images (relative to 'path')
-val: images  # val images (relative to 'path')
+path: C:\Users\marci\OneDrive - Politechnika Warszawska\Pulpit\Road-Sign-Detector\data  # dataset root dir, absolute path
+train: train/images  # train images (relative to 'path')
+val: val/images  # val images (relative to 'path')
+
+epochs: 10  # number of epochs
+deterministic: False  # deterministic training
 
 # Classes
 names:
